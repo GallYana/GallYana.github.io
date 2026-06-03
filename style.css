@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    background: #eee;
+    display: block;
+    margin: 0 auto;
+}
+
+.buttons-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-self: center;
+    margin-top: 16px;
+}
+
+.button {
+    padding: 10px;
+    background: #5464d3;
+    color: white;
+    border-radius: 5px;
+    width: fit-content;
+    justify-self: center;
+    cursor: pointer;
+    /* border: 2px solid #5464d3; */
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button:active {
+  outline: 2px solid rgb(177, 229, 233);
+}
+
+.red-btn {
+    /* border: 2px solid red; */
+    background: red;
+}
